@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Türkçe Sözlük \nUygulaması"
+            android:textSize="35sp"
+            android:layout_marginTop="110dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/background_light">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TDK İle Bağlantılı\nSürekli Güncellenen Bir\nTürkçe - Türkçe Sözlük\nUygulamasıdır. Uygulama\n Kullanımı İçin Devam Ediniz."
+            android:textColor="@android:color/background_light"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_devam"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Devam Et"
+            android:onClick="onClick"
+            android:id="@+id/devam_et"
+            android:textColor="@android:color/background_light">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logoo"
+            android:layout_gravity="center"
+            android:layout_marginTop="175dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</RelativeLayout>

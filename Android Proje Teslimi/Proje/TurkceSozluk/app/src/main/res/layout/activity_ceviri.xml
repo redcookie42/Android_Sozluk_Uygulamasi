@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CeviriActivity"
+    android:background="@drawable/ceviri">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:background="@color/deneme"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="270dp">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/sozcuk_aciklamasi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/deneme"
+        android:drawableBottom="@drawable/ic_search_yeniii"
+        android:gravity="center"
+        android:text="Sözcük Açıklaması"
+        android:textColor="#66000000"
+        android:textSize="17sp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Geri"
+        android:id="@+id/btnGeri"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_backspace_black_24dp"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:layout_below="@id/sozcuk_aciklamasi">
+
+    </Button>
+
+</RelativeLayout>
